@@ -16,13 +16,14 @@ export function collectComponent(component) {
 export function createComponent(ctor, props, context) {
 	let list = components[ctor.name],
 		len = list && list.length,
-		c;
+		c, inst;
 	for (let i=0; i<len; i++) {
 		c = list[i];
 		if (c.constructor===ctor) {
 			list.splice(i, 1);
-			let inst = new ctor(props, context);
+			inst = c.prevState ? new ctor(props, context) : c;
 			inst.nextBase = c.base;
+			c.base = null;
 			return inst;
 		}
 	}
