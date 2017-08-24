@@ -1,27 +1,55 @@
 {
-  "props": {
-    "cname": 16,
     "props": {
-      "$_dirty": "__d",
-      "$_disable": "__x",
-      "$_listeners": "__l",
-      "$_renderCallbacks": "__h",
-      "$__key": "__k",
-      "$__ref": "__r",
-      "$normalizedNodeName": "__n",
-      "$nextBase": "__b",
-      "$prevContext": "__c",
-      "$prevProps": "__p",
-      "$prevState": "__s",
-      "$_parentComponent": "__u",
-      "$_componentConstructor": "_componentConstructor",
-      "$__html": "__html",
-      "$_component": "_component",
-      "$__preactattr_": "__preactattr_"
+        "cname": 50,
+        "props": {
+            "$_dirty": "__d",
+            "$_disable": "__x",
+            "$_listeners": "__l",
+            "$_renderCallbacks": "__h",
+            "$__key": "__k",
+            "$__ref": "__r",
+            "$normalizedNodeName": "__n",
+            "$nextBase": "__b",
+            "$prevContext": "__c",
+            "$prevProps": "__p",
+            "$prevState": "__s",
+            "$_parentComponent": "__u",
+            "$_componentConstructor": "_componentConstructor",
+            "$__html": "__html",
+            "$_component": "_component",
+            "$__preactattr_": "__preactattr_",
+            "$vnode": "vnode",
+            "$debounceRendering": "debounceRendering",
+            "$defaultProps": "defaultProps",
+            "$afterMount": "afterMount",
+            "$componentDidMount": "componentDidMount",
+            "$dangerouslySetInnerHTML": "dangerouslySetInnerHTML",
+            "$ref": "ref",
+            "$render": "render",
+            "$base": "base",
+            "$componentWillMount": "componentWillMount",
+            "$componentWillReceiveProps": "componentWillReceiveProps",
+            "$props": "props",
+            "$syncComponentUpdates": "syncComponentUpdates",
+            "$shouldComponentUpdate": "shouldComponentUpdate",
+            "$componentWillUpdate": "componentWillUpdate",
+            "$getChildContext": "getChildContext",
+            "$componentDidUpdate": "componentDidUpdate",
+            "$afterUpdate": "afterUpdate",
+            "$beforeUnmount": "beforeUnmount",
+            "$componentWillUnmount": "componentWillUnmount",
+            "$setState": "setState",
+            "$forceUpdate": "forceUpdate",
+            "$h": "h",
+            "$cloneElement": "cloneElement",
+            "$Component": "Component",
+            "$rerender": "rerender",
+            "$exports": "exports",
+            "$preact": "preact"
+        }
+    },
+    "vars": {
+        "cname": -1,
+        "props": {}
     }
-  },
-  "vars": {
-    "cname": -1,
-    "props": {}
-  }
 }

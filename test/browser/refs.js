@@ -1,4 +1,4 @@
-import { h, render, Component } from '../../src/preact';
+import { h, render, Component } from 'preact';
 /** @jsx h */
 
 // gives call count and argument errors names (otherwise sinon just uses "spy"):

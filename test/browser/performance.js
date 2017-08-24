@@ -2,7 +2,7 @@
 /*eslint no-console:0*/
 /** @jsx h */
 
-let { h, Component, render } = require(NODE_ENV==='production' ? '../../dist/preact.min.js' : '../../src/preact');
+let { h, Component, render } = require(NODE_ENV==='production' ? '../../dist/preact.min.js' : 'preact');
 
 const MULTIPLIER = ENABLE_PERFORMANCE ? (coverage ? 5 : 1) : 999999;
 

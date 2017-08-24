@@ -1,4 +1,4 @@
-import { h, render } from '../../src/preact';
+import { h, render } from 'preact';
 /** @jsx h */
 
 

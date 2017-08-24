@@ -1,4 +1,4 @@
-import { h, Component, render } from '../../src/preact';
+import { h, Component, render } from 'preact';
 import { initDevTools } from '../../devtools/devtools';
 import { unmountComponent } from '../../src/vdom/component';
 

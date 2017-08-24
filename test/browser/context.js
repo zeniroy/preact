@@ -1,4 +1,4 @@
-import { h, render, Component } from '../../src/preact';
+import { h, render, Component } from 'preact';
 /** @jsx h */
 
 const CHILDREN_MATCHER = sinon.match( v => v==null || Array.isArray(v) && !v.length , '[empty children]');

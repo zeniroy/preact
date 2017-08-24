@@ -1,6 +1,6 @@
 /* global DISABLE_FLAKEY */
 
-import { h, render, Component } from '../../src/preact';
+import { h, render, Component } from 'preact';
 /** @jsx h */
 
 function getAttributes(node) {

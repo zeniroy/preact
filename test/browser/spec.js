@@ -1,4 +1,4 @@
-import { h, render, rerender, Component } from '../../src/preact';
+import { h, render, rerender, Component } from 'preact';
 /** @jsx h */
 
 const EMPTY_CHILDREN = [];

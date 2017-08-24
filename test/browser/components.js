@@ -1,4 +1,4 @@
-import { h, cloneElement, render, rerender, Component } from '../../src/preact';
+import { h, cloneElement, render, rerender, Component } from 'preact';
 /** @jsx h */
 
 let spyAll = obj => Object.keys(obj).forEach( key => sinon.spy(obj,key) );

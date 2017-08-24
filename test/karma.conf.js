@@ -7,6 +7,7 @@ var coverage = String(process.env.COVERAGE)!=='false',
 	realBrowser = String(process.env.BROWSER).match(/^(1|true)$/gi),
 	sauceLabs = realBrowser && ci && !pullRequest && masterBranch,
 	performance = !coverage && !realBrowser && String(process.env.PERFORMANCE)!=='false',
+	path = require('path'),
 	webpack = require('webpack');
 
 var sauceLabsLaunchers = {
@@ -134,7 +135,9 @@ module.exports = function(config) {
 				// The React DevTools integration requires preact as a module
 				// rather than referencing source files inside the module
 				// directly
-				alias: { preact: '../src/preact' },
+				alias: {
+					preact: path.resolve(__dirname, process.env.TEST_PRODUCTION ? '../dist/preact.min.js' : '../src/preact')
+				},
 				modules: [__dirname, 'node_modules']
 			},
 			plugins: [
